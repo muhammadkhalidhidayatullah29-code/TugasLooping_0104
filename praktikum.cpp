@@ -48,3 +48,12 @@ void tampilkanHasilFibonacci() {
         cout << "Hasil: " << angka << " BUKAN bagian dari deret Fibonacci." << endl;
     }
 }
+
+void tampilkanMenu() {
+    cout << "\n========== MENU CEK BILANGAN ==========" << endl;
+    cout << "1. Cek Bilangan Prima" << endl;
+    cout << "2. Cek Bilangan Fibonacci" << endl;
+    cout << "0. Keluar" << endl;
+    cout << "Pilih menu: ";
+    cin >> pilihan;
+}
