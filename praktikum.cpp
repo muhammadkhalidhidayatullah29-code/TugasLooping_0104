@@ -69,3 +69,7 @@ int main() {
                 inputAngka();
                 tampilkanHasilPrima();
                 break;
+            case 2:
+                inputAngka();
+                tampilkanHasilFibonacci();
+                break;
