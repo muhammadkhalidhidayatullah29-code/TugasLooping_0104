@@ -7,6 +7,7 @@ int pilihan;
 bool isPrima(int n) {
     if (n <= 1) return false;
     int i = 2;
+
     while (i * i <= n) {
         if (n % i == 0) return false;
         i++;
@@ -18,4 +19,11 @@ bool isFibonacci(int n) {
     if (n < 0) return false;
     int a = 0;
     int b = 1;
+    
+    while (a < n) {
+        int temp = a + b;
+        a = b;
+        b = temp;
+    }
+    return (a == n);
 }
